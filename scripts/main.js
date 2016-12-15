@@ -25,3 +25,8 @@ playButton.addEventListener("click", play);
 
 let pauseButton = document.querySelector("#pause-button");
 pauseButton.addEventListener("click", pause);
+
+function updateVolume(){
+    let slider = document.querySelector("#volume");
+    let value = slider.value;
+}
